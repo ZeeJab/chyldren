@@ -12,8 +12,9 @@
  *= require_self
  */
 
-#chyld {
-	height: 1000px;
-	background: url('user-image-lg.jpeg') no-repeat;
-	background-size: 60%;
+img {
+	width: 350px;
+	height: 350px;
+	border-radius: 100%;
+	margin-left: 60px;
 }
