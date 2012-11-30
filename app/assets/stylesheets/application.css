@@ -12,6 +12,22 @@
  *= require_self
  */
 
+
+header{
+	height: 100px;
+	background-color: #333;
+	padding-top: 10px;
+}
+
+.heading{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+body{
+	background: url('nasty_fabric.png')
+}
 img {
 	width: 350px;
 	height: 350px;
