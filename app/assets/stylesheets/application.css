@@ -11,3 +11,9 @@
  *= require_self
  *= require_tree .
  */
+
+#chyld {
+	height: 1000px;
+	background: url('user-image-lg.jpeg') no-repeat center;
+	background-size: 60%;
+}
