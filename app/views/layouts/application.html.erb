@@ -4,15 +4,20 @@
   <title>Chyldren</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <link href='http://fonts.googleapis.com/css?family=Life+Savers' rel='stylesheet' type='text/css'>
   <%= csrf_meta_tags %>
 </head>
-	<header>
-		<p class = "heading"> Chlyds Greatest Moments <p>
-	</header>
 
-	<body>
+<body>
+    <header>
+      <p class = "heading"> Chlyds Greatest Moments <p>
+    </header>
 
-<%= yield %>
+  <%= yield %>
+
+    <footer>
+      <p class = "footer"> Just another day in the life of a coder <p>
+    </footer>
 
 </body>
 </html>
