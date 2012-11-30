@@ -1,4 +1,7 @@
 Chyldren::Application.routes.draw do
+  resources :bad_quotes
+
+
   resources :quotes
 
 

@@ -1,0 +1,2 @@
+module BadQuotesHelper
+end
