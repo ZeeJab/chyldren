@@ -13,3 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(function(){
+  $('#quotes').val('Quotes go here')
+  setTimeout(shuffle_quotes, 5000);
+});
+
+function shuffle_quotes() {
+
+}
