@@ -1,4 +1,10 @@
 Chyldren::Application.routes.draw do
+  resources :bad_quotes
+
+
+  resources :quotes
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

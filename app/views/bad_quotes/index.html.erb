@@ -1,0 +1,15 @@
+<table>
+
+<% @bad_quotes.each do |bad_quote| %>
+  <tr>
+    <td><%= bad_quote.bad_quote %></td>
+    <td><%= link_to 'Show', bad_quote %></td>
+    <td><%= link_to 'Edit', edit_bad_quote_path(bad_quote) %></td>
+    <td><%= link_to 'Destroy', bad_quote, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Bad quote', new_bad_quote_path %>
