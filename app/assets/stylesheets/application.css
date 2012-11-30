@@ -8,15 +8,10 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require 'flatiron.css'
  *= require_self
- *= require_tree .
  */
 
-#chyld {
-	height: 1000px;
-	background: url('user-image-lg.jpeg') no-repeat center;
-	background-size: 60%;
-}
 
 header{
 	height: 100px;
@@ -32,4 +27,10 @@ header{
 
 body{
 	background: url('nasty_fabric.png')
+}
+img {
+	width: 350px;
+	height: 350px;
+	border-radius: 100%;
+	margin-left: 60px;
 }
