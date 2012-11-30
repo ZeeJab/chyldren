@@ -15,7 +15,7 @@
 //= require_tree .
 
 $(function(){
-  $('#quotes').val('Quotes go here')
+  $('#quotes').text('Quotes go here')
   setTimeout(shuffle_quotes, 5000);
 });
 
